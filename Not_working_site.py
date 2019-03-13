@@ -13,7 +13,7 @@ website = ""
 # (Current website is blank)
 r = requests.get(website, timeout=5)
 
-logging.basicConfig(filename='logging.txt', level=logging.INFO,
+logging.basicConfig(filename='./logging.txt', level=logging.INFO,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
 
